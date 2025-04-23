@@ -4,6 +4,7 @@ import About from '../Componets/About';
 import Projects from '../Componets/Projects';
 import Contact from '../Componets/Contact';
 import Skills from '../Componets/Skills';
+import sandu from '../assets/sandu.jpg'
 
 function Home() {
   return (
@@ -91,7 +92,7 @@ function Home() {
 
         <div className="flex-1 md:flex items-center justify-center">
           <img
-            src="/src/assets/sandu.jpg"
+            src={sandu}
             alt="Sandu"
             className="w-90 h-90 object-cover rounded-t-3xl rounded-b-3xl shadow-5xl transform transition-all duration-700 ease-in-out hover:scale-110" 
           />
