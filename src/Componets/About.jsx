@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import sandu1 from '../assets/sandu1.png'
 
 function About() {
   return (
@@ -43,7 +44,7 @@ function About() {
             transition={{ duration: 0.8, ease: "easeOut" }}
           >
             <img
-              src="/src/assets/sandu1.png" 
+              src={sandu1}
               alt="Sandu"
               className="w-72 h-72 object-cover rounded-full shadow-2xl transform transition-all duration-500 ease-in-out hover:scale-105"
             />

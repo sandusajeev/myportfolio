@@ -1,5 +1,11 @@
 import React from "react";
 import { motion } from "framer-motion";
+import anytimefitness from '../assets/anytimefitness.png'
+import gsap from '../assets/gsap.png'
+import parallex from '../assets/parallex.png'
+import qoutes from '../assets/qoutes.png'
+import todo from '../assets/todo.jpg'
+import travel from '../assets/travel.png'
 
 function Projects() {
   return (
@@ -21,7 +27,7 @@ function Projects() {
             viewport={{ once: true }}
             transition={{ duration: 0.4 }}
           >
-            <img src="/src/assets/todo.jpg" alt="todo" className="w-full h-48 object-cover rounded-lg mb-4" />
+            <img src={todo} alt="todo" className="w-full h-48 object-cover rounded-lg mb-4" />
             <h3 className="text-xl font-semibold text-purple-700 mb-2">TODO LIST</h3>
             <p className="text-gray-700 mb-2 text-justify">
             A MERN stack To-Do List application that allows users to add, update, delete, and manage daily tasks with login functionality and data persistence
@@ -45,7 +51,7 @@ function Projects() {
             viewport={{ once: true }}
             transition={{ duration: 0.4, delay: 0.2 }}
           >
-            <img src="/src/assets/gsap.png" alt="Portfolio Website" className="w-full h-48 object-cover rounded-lg mb-4" />
+            <img src={gsap} alt="Portfolio Website" className="w-full h-48 object-cover rounded-lg mb-4" />
             <h3 className="text-xl font-semibold text-purple-700 mb-2">GSAP Website</h3>
             <p className="text-gray-700 mb-2 text-justify">
             An interactive, visually engaging website, built using GSAP (GreenSock Animation Platform) to create smooth, scroll-triggered animations, dynamic page transitions, and vibrant UI effects. This project focuses on enhancing user experience through modern motion design, and performance-optimized animations.
@@ -70,7 +76,7 @@ function Projects() {
             viewport={{ once: true }}
             transition={{ duration: 0.4, delay: 0.4 }}
           >
-            <img src="/src/assets/parallex.png" alt="Weather App" className="w-full h-48 object-cover rounded-lg mb-4" />
+            <img src={parallex} alt="Weather App" className="w-full h-48 object-cover rounded-lg mb-4" />
             <h3 className="text-xl font-semibold text-purple-700 mb-2">Parallex Website</h3>
             <p className="text-gray-700 mb-2 text-justify">
               A dynamic Parallax website showcasing smooth scrolling animations and interactive visual effects. The site includes multiple layers that move at different speeds, creating a 3D effect as the user scrolls down. This project demonstrates the use of advanced CSS techniques and JavaScript to create an engaging user
@@ -95,7 +101,7 @@ function Projects() {
             viewport={{ once: true }}
             transition={{ duration: 0.4, delay: 0.4 }}
           >
-            <img src="/src/assets/qoutes.png" alt="Weather App" className="w-full h-48 object-cover rounded-lg mb-4" />
+            <img src={qoutes} alt="Weather App" className="w-full h-48 object-cover rounded-lg mb-4" />
             <h3 className="text-xl font-semibold text-purple-700 mb-2">Random Quotes Generater</h3>
             <p className="text-gray-700 mb-2 text-justify">
             A random quote generator built with React, fetching quotes from a public API. The app allows users to generate new motivational or inspirational quotes at the click of a button. With a clean and responsive design, powered by React and styled with Bootstrap, this app provides a delightful experience for users seeking daily inspiration.
@@ -119,7 +125,7 @@ function Projects() {
             viewport={{ once: true }}
             transition={{ duration: 0.4, delay: 0.4 }}
           >
-            <img src="/src/assets/travel.png" alt="Weather App" className="w-full h-48 object-cover rounded-lg mb-4" />
+            <img src={travel} alt="Weather App" className="w-full h-48 object-cover rounded-lg mb-4" />
             <h3 className="text-xl font-semibold text-purple-700 mb-2">Travell Website</h3>
             <p className="text-gray-700 mb-2 text-justify">
             A travel website designed to inspire wanderlust, featuring stunning destinations, interactive maps, and travel tips. The site is built using HTML and CSS, with media queries for responsive design to ensure it looks great on any device. It includes sections for featured destinations, travel packages, and a simple contact form.
@@ -143,7 +149,7 @@ function Projects() {
             viewport={{ once: true }}
             transition={{ duration: 0.4, delay: 0.4 }}
           >
-            <img src="/src/assets/anytimefitness.png" alt="Weather App" className="w-full h-48 object-cover rounded-lg mb-4" />
+            <img src={anytimefitness} alt="Weather App" className="w-full h-48 object-cover rounded-lg mb-4" />
             <h3 className="text-xl font-semibold text-purple-700 mb-2">Fitness Website</h3>
             <p className="text-gray-700 mb-2 text-justify">
             A clone of the Gym Anytime Fitness website, designed to provide users with an engaging and interactive fitness experience. The website showcases various gym membership plans, fitness schedules, and offers a user-friendly interface to navigate through services. Built using HTML, CSS, and Bootstrap, the site is fully responsive and provides an attractive layout for both desktop and mobile users.
